@@ -11,10 +11,6 @@
         "score": 8
       },
       {
-        "word": "life",
-        "score": 7
-      },
-      {
         "word": "warning",
         "score": 8
       }
@@ -25,14 +21,10 @@
     "important_words": [
       {
         "word": "disguised",
-        "score": 8
+        "score": 9
       },
       {
         "word": "ordinary",
-        "score": 7
-      },
-      {
-        "word": "days",
         "score": 7
       },
       {
@@ -46,18 +38,18 @@
     "important_words": [
       {
         "word": "setback",
-        "score": 9
+        "score": 8
       },
       {
         "word": "choice",
-        "score": 9
+        "score": 10
       },
       {
         "word": "surrender",
         "score": 8
       },
       {
-        "word": "fear",
+        "word": "move",
         "score": 8
       }
     ]
@@ -67,7 +59,7 @@
     "important_words": [
       {
         "word": "inspire",
-        "score": 9
+        "score": 8
       },
       {
         "word": "rise",
@@ -78,8 +70,8 @@
         "score": 8
       },
       {
-        "word": "lost",
-        "score": 8
+        "word": "fall",
+        "score": 7
       }
     ]
   },
@@ -88,11 +80,11 @@
     "important_words": [
       {
         "word": "challenge",
-        "score": 9
+        "score": 8
       },
       {
         "word": "shaping",
-        "score": 8
+        "score": 9
       },
       {
         "word": "stronger",
@@ -112,16 +104,16 @@
         "score": 9
       },
       {
-        "word": "future",
+        "word": "uncertain",
         "score": 8
-      },
-      {
-        "word": "remember",
-        "score": 9
       },
       {
         "word": "story",
         "score": 9
+      },
+      {
+        "word": "written",
+        "score": 8
       }
     ]
   },
@@ -133,12 +125,12 @@
         "score": 9
       },
       {
-        "word": "today",
-        "score": 7
+        "word": "ending",
+        "score": 8
       },
       {
-        "word": "ending",
-        "score": 9
+        "word": "today",
+        "score": 7
       }
     ]
   },
