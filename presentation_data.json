@@ -1,0 +1,142 @@
+[
+  {
+    "sentence": "The hardest moments in life rarely arrive with warning.",
+    "important_words": [
+      {
+        "word": "warning",
+        "score": 10
+      },
+      {
+        "word": "hardest",
+        "score": 9
+      },
+      {
+        "word": "moments",
+        "score": 8
+      },
+      {
+        "word": "life",
+        "score": 7
+      },
+      {
+        "word": "arrive",
+        "score": 6
+      }
+    ]
+  },
+  {
+    "sentence": "They appear quietly, disguised as ordinary days, until everything changes.",
+    "important_words": [
+      {
+        "word": "appear",
+        "score": 8
+      },
+      {
+        "word": "quietly",
+        "score": 5
+      },
+      {
+        "word": "ordinary",
+        "score": 6
+      },
+      {
+        "word": "changes",
+        "score": 9
+      }
+    ]
+  },
+  {
+    "sentence": "Yet within every setback lies a choice: to surrender to fear or to move forward despite it.",
+    "important_words": [
+      {
+        "word": "setback",
+        "score": 8
+      },
+      {
+        "word": "choice",
+        "score": 9
+      },
+      {
+        "word": "forward",
+        "score": 7
+      }
+    ]
+  },
+  {
+    "sentence": "The people who inspire us are not those who never fall, but those who rise again when hope seems lost.",
+    "important_words": [
+      {
+        "word": "inspire",
+        "score": 8
+      },
+      {
+        "word": "rise",
+        "score": 9
+      },
+      {
+        "word": "hope",
+        "score": 7
+      },
+      {
+        "word": "fall",
+        "score": 6
+      }
+    ]
+  },
+  {
+    "sentence": "Every challenge you face is shaping a stronger, wiser version of yourself.",
+    "important_words": [
+      {
+        "word": "shaping",
+        "score": 8
+      },
+      {
+        "word": "yourself",
+        "score": 7
+      },
+      {
+        "word": "challenge",
+        "score": 6
+      }
+    ]
+  },
+  {
+    "sentence": "So when the road feels impossible and the future uncertain, remember this: your story is still being written.",
+    "important_words": [
+      {
+        "word": "story",
+        "score": 8
+      },
+      {
+        "word": "remember",
+        "score": 7
+      },
+      {
+        "word": "written",
+        "score": 6
+      }
+    ]
+  },
+  {
+    "sentence": "The chapter you're in today is not the ending.",
+    "important_words": [
+      {
+        "word": "chapter",
+        "score": 7
+      },
+      {
+        "word": "ending",
+        "score": 6
+      }
+    ]
+  },
+  {
+    "sentence": "It is the beginning.",
+    "important_words": [
+      {
+        "word": "beginning",
+        "score": 10
+      }
+    ]
+  }
+]

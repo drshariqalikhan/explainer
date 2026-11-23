@@ -1,0 +1,62 @@
+[
+  {
+    "sentence": "Did you know there's a simple way to solve this common problem?",
+    "words": {
+      "simple": 10,
+      "solve": 9,
+      "common problem": 8,
+      "know": 7
+    }
+  },
+  {
+    "sentence": "In today's video, we'll break it down step by step.",
+    "words": {
+      "break down": 10,
+      "step by step": 9,
+      "today's video": 8
+    }
+  },
+  {
+    "sentence": "First, let's understand why this issue happens and how it affects people every day.",
+    "words": {
+      "understand": 10,
+      "why": 9,
+      "affects people": 9,
+      "every day": 8
+    }
+  },
+  {
+    "sentence": "Then, we'll explore the most effective solution and show you exactly how it works.",
+    "words": {
+      "effective solution": 10,
+      "explore": 9,
+      "exactly how": 9,
+      "works": 8
+    }
+  },
+  {
+    "sentence": "Along the way, we'll share useful tips, common mistakes to avoid, and practical examples you can apply immediately.",
+    "words": {
+      "apply immediately": 10,
+      "useful tips": 9,
+      "mistakes to avoid": 9,
+      "practical examples": 9
+    }
+  },
+  {
+    "sentence": "By the end of this video, you'll have a clear understanding of the topic and know what actions to take next.",
+    "words": {
+      "clear understanding": 10,
+      "actions to take next": 10,
+      "end of this video": 8
+    }
+  },
+  {
+    "sentence": "Let's get started and dive right in!",
+    "words": {
+      "get started": 10,
+      "dive right in": 10,
+      "Let's": 9
+    }
+  }
+]
