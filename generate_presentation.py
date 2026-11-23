@@ -14,15 +14,15 @@ WIDTH, HEIGHT = 1280, 720
 FPS = 24
 
 # Importance threshold: ONLY words with score >= threshold appear in center
-MIN_SCORE_THRESHOLD = 10
+MIN_SCORE_THRESHOLD = 8
 
 # Kokoro Voice Options:
 # "af_heart" (Warm, human, popular), "af_bella", "af_sarah"
 # "am_adam" (Deep, authoritative), "am_michael"
 # "bf_emma" (British female), "bm_george" (British male)
-KOKORO_VOICE = "af_heart"
-KOKORO_SPEED = 0.95            # Slower pace for clear documentary delivery
-PAUSE_BETWEEN_SENTENCES = 0.4  # Pause after each sentence in seconds
+KOKORO_VOICE = "am_adam"
+KOKORO_SPEED = 0.85            # Slower pace for clear documentary delivery
+PAUSE_BETWEEN_SENTENCES = 0.5  # Pause after each sentence in seconds
 
 FONT_BOLD = "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"
 FONT_REGULAR = "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf"

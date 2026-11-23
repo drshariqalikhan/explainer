@@ -3,10 +3,6 @@
     "sentence": "The hardest moments in life rarely arrive with warning.",
     "important_words": [
       {
-        "word": "warning",
-        "score": 10
-      },
-      {
         "word": "hardest",
         "score": 9
       },
@@ -19,8 +15,8 @@
         "score": 7
       },
       {
-        "word": "arrive",
-        "score": 6
+        "word": "warning",
+        "score": 8
       }
     ]
   },
@@ -28,16 +24,16 @@
     "sentence": "They appear quietly, disguised as ordinary days, until everything changes.",
     "important_words": [
       {
-        "word": "appear",
+        "word": "disguised",
         "score": 8
       },
       {
-        "word": "quietly",
-        "score": 5
+        "word": "ordinary",
+        "score": 7
       },
       {
-        "word": "ordinary",
-        "score": 6
+        "word": "days",
+        "score": 7
       },
       {
         "word": "changes",
@@ -50,15 +46,19 @@
     "important_words": [
       {
         "word": "setback",
-        "score": 8
+        "score": 9
       },
       {
         "word": "choice",
         "score": 9
       },
       {
-        "word": "forward",
-        "score": 7
+        "word": "surrender",
+        "score": 8
+      },
+      {
+        "word": "fear",
+        "score": 8
       }
     ]
   },
@@ -67,7 +67,7 @@
     "important_words": [
       {
         "word": "inspire",
-        "score": 8
+        "score": 9
       },
       {
         "word": "rise",
@@ -75,11 +75,11 @@
       },
       {
         "word": "hope",
-        "score": 7
+        "score": 8
       },
       {
-        "word": "fall",
-        "score": 6
+        "word": "lost",
+        "score": 8
       }
     ]
   },
@@ -87,16 +87,20 @@
     "sentence": "Every challenge you face is shaping a stronger, wiser version of yourself.",
     "important_words": [
       {
+        "word": "challenge",
+        "score": 9
+      },
+      {
         "word": "shaping",
         "score": 8
       },
       {
-        "word": "yourself",
-        "score": 7
+        "word": "stronger",
+        "score": 8
       },
       {
-        "word": "challenge",
-        "score": 6
+        "word": "wiser",
+        "score": 8
       }
     ]
   },
@@ -104,16 +108,20 @@
     "sentence": "So when the road feels impossible and the future uncertain, remember this: your story is still being written.",
     "important_words": [
       {
-        "word": "story",
+        "word": "impossible",
+        "score": 9
+      },
+      {
+        "word": "future",
         "score": 8
       },
       {
         "word": "remember",
-        "score": 7
+        "score": 9
       },
       {
-        "word": "written",
-        "score": 6
+        "word": "story",
+        "score": 9
       }
     ]
   },
@@ -122,11 +130,15 @@
     "important_words": [
       {
         "word": "chapter",
+        "score": 9
+      },
+      {
+        "word": "today",
         "score": 7
       },
       {
         "word": "ending",
-        "score": 6
+        "score": 9
       }
     ]
   },
