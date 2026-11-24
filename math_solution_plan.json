@@ -1,0 +1,69 @@
+{
+  "question_stem": "Which of the following fractions is equal to 5 6/7?",
+  "options": [
+    "30/7",
+    "35/7",
+    "37/7",
+    "41/7"
+  ],
+  "intro_narration": "Let's have a look at the question we are solving. Which of the following fractions is equal to 5 and 6 over 7?",
+  "steps": [
+    {
+      "title": "Step 1: The Whole Pizza Secret!",
+      "narration": "Let's imagine we are throwing a massive pizza party! We have 5 whole pizzas, and each one is cut into 7 equal slices because our bottom number is 7. If we have 5 whole pizzas, how many slices are hiding inside those whole boxes? Let's do the math: 5 times 7 equals 35 yummy slices!",
+      "models": [
+        {
+          "label": "5 Whole Pizzas",
+          "units": 5,
+          "color": "cyan",
+          "extra_value": "5 \u00d7 7 = 35 slices"
+        }
+      ],
+      "equations": [
+        "1 whole pizza = 7/7 slices",
+        "5 whole pizzas = 5 \u00d7 7 = 35 slices"
+      ],
+      "answer_highlight": null
+    },
+    {
+      "title": "Step 2: Count the Leftover Slices!",
+      "narration": "Awesome! We have 35 slices from the whole pizzas. But wait\u2014we have a fraction of 6/7, which means there are 6 extra slices sitting on a plate! Let's add those 6 extra slices to our 35 slices. 35 plus 6 gives us exactly 41 slices in total. That means our fraction is 41 over 7!",
+      "models": [
+        {
+          "label": "5 Whole Pizzas",
+          "units": 5,
+          "color": "cyan",
+          "extra_value": "35 slices"
+        },
+        {
+          "label": "Leftover Plate",
+          "units": 1,
+          "color": "amber",
+          "extra_value": "6 slices"
+        }
+      ],
+      "equations": [
+        "35 slices + 6 slices = 41 slices",
+        "Total fraction = 41/7"
+      ],
+      "answer_highlight": null
+    },
+    {
+      "title": "Step 3: Find the Magic Match!",
+      "narration": "Now, let's look at our options and see if we can spot our total, 41/7. Look at option (4)\u2014it is exactly 41/7! That is our winner. Give yourself a high five, you solved it like a true math champion!",
+      "models": [
+        {
+          "label": "The Winning Fraction",
+          "units": 4,
+          "color": "emerald",
+          "extra_value": "41/7"
+        }
+      ],
+      "equations": [
+        "5 6/7 = (5 \u00d7 7 + 6) / 7 = 41/7",
+        "Option (4) matches perfectly!"
+      ],
+      "answer_highlight": "Bingo! Option (4) is our winner: 41/7"
+    }
+  ]
+}
