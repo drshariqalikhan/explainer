@@ -1,0 +1,27 @@
+{
+  "question_stem": "Which of the following fractions is equal to 5 6/7?",
+  "intro_narration": "Let's have a look at the question we are solving. Which of the following fractions is equal to 5 and 6 sevenths?",
+  "intro_code": "title = Text('Question', font_size=32, color=BLUE).to_edge(UP)\nquestion = MarkupText('Which of the following fractions is equal to <b>5 6/7</b>?', font_size=28).next_to(title, DOWN, buff=0.5)\nself.play(Write(title), Write(question))\nself.wait(1)",
+  "steps": [
+    {
+      "title": "Step 1: Visualize 5 Whole Pizzas and 6/7 of a Pizza",
+      "narration": "Imagine we have 5 whole pizzas, each cut into 7 equal slices. That's 5 times 7 slices. Then we have an extra 6 slices from another pizza. Let's draw them!",
+      "manim_code": "# Draw 5 whole pizzas (circles divided into 7 sectors) and one partial pizza with 6 slices highlighted\nfrom manim import *\nimport math\n\n# Helper to create a pizza with 7 slices, optionally highlighting some\ndef make_pizza(highlight_count=0, radius=0.8, color=YELLOW):\n    pizza = VGroup()\n    for i in range(7):\n        angle = 2*PI/7\n        start = i * angle\n        end = start + angle\n        sector = AnnularSector(inner_radius=0, outer_radius=radius, angle=angle, start_angle=start, color=color, fill_opacity=0.6, stroke_width=1, stroke_color=WHITE)\n        pizza.add(sector)\n    # Highlight the first 'highlight_count' slices in a different color\n    if highlight_count > 0:\n        for i in range(highlight_count):\n            angle = 2*PI/7\n            start = i * angle\n            end = start + angle\n            highlight = AnnularSector(inner_radius=0, outer_radius=radius, angle=angle, start_angle=start, color=ORANGE, fill_opacity=0.9, stroke_width=1, stroke_color=WHITE)\n            pizza.add(highlight)\n    return pizza\n\n# Create 5 whole pizzas\nwhole_pizzas = VGroup()\nfor i in range(5):\n    p = make_pizza(highlight_count=0, radius=0.6, color=TEAL)\n    whole_pizzas.add(p)\nwhole_pizzas.arrange(RIGHT, buff=0.3).to_edge(UP, buff=1)\n\n# Create partial pizza with 6 slices highlighted\npartial_pizza = make_pizza(highlight_count=6, radius=0.6, color=TEAL)\npartial_pizza.next_to(whole_pizzas, DOWN, buff=0.5)\n\n# Labels\nlabel_whole = Text('5 whole pizzas = 5 \u00d7 7 slices', font_size=24, color=TEAL).next_to(whole_pizzas, DOWN, buff=0.2)\nlabel_partial = Text('6/7 of a pizza = 6 slices', font_size=24, color=ORANGE).next_to(partial_pizza, DOWN, buff=0.2)\n\nself.play(FadeIn(whole_pizzas), Write(label_whole))\nself.play(FadeIn(partial_pizza), Write(label_partial))\nself.wait(1)"
+    },
+    {
+      "title": "Step 2: Count Total Slices",
+      "narration": "Now let's count the total number of slices. Each whole pizza has 7 slices, so 5 pizzas give 5 times 7 equals 35 slices. Plus the extra 6 slices gives 35 plus 6 equals 41 slices. Since each slice is 1/7 of a pizza, we have 41/7!",
+      "manim_code": "# Show the calculation: 5 \u00d7 7 = 35, 35 + 6 = 41\ncalc1 = MathTex('5 \\times 7 = 35', font_size=36, color=GREEN).next_to(label_whole, DOWN, buff=0.5)\ncalc2 = MathTex('35 + 6 = 41', font_size=36, color=GREEN).next_to(calc1, DOWN, buff=0.3)\nresult = MathTex('\\frac{41}{7}', font_size=48, color=RED).next_to(calc2, DOWN, buff=0.5)\n\nself.play(Write(calc1))\nself.play(Write(calc2))\nself.play(Write(result))\nself.wait(1)"
+    },
+    {
+      "title": "Step 3: Match with Options",
+      "narration": "Let's look at the options: 30/7, 35/7, 37/7, and 41/7. Our answer is 41/7, which is option (4)!",
+      "manim_code": "# Display options and highlight the correct one\noptions = VGroup()\noption_texts = ['(1) 30/7', '(2) 35/7', '(3) 37/7', '(4) 41/7']\nfor i, txt in enumerate(option_texts):\n    color = RED if i == 3 else WHITE\n    opt = Text(txt, font_size=28, color=color)\n    options.add(opt)\noptions.arrange(DOWN, aligned_edge=LEFT, buff=0.3).to_edge(RIGHT, buff=1).shift(DOWN*0.5)\n\n# Add a checkmark next to option (4)\ncheck = Text('\u2713', font_size=36, color=GREEN).next_to(options[3], LEFT, buff=0.3)\n\nself.play(FadeIn(options))\nself.play(Write(check))\nself.wait(1)"
+    },
+    {
+      "title": "Step 4: Conclusion",
+      "narration": "So 5 and 6/7 is the same as 41/7. Remember: multiply the whole number by the denominator, add the numerator, and keep the denominator. Great job!",
+      "manim_code": "# Final summary\nsummary = VGroup(\n    Text('5 6/7 = 41/7', font_size=36, color=BLUE),\n    Text('Method: Whole \u00d7 Denominator + Numerator', font_size=24, color=TEAL),\n    Text('5 \u00d7 7 + 6 = 41', font_size=24, color=GREEN)\n).arrange(DOWN, buff=0.3).move_to(ORIGIN)\n\nself.play(FadeOut(whole_pizzas, partial_pizza, label_whole, label_partial, calc1, calc2, result, options, check))\nself.play(Write(summary))\nself.wait(2)"
+    }
+  ]
+}

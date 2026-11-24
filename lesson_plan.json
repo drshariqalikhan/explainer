@@ -1,0 +1,80 @@
+{
+  "question_stem": "What is the likely length of a tour bus?",
+  "intro_narration": "Let's have a look at the question we are solving. What is the likely length of a tour bus?",
+  "visual_type": "cards",
+  "steps": [
+    {
+      "title": "Step 1: Know Our Length Units",
+      "narration": "Before we guess, let's remember our length units! A centimeter is tiny, like the width of your finger. A meter is much bigger, like a big step. A kilometer is super long, like a long walk to school and back... maybe even farther!",
+      "visual_data": {
+        "cards": [
+          {
+            "heading": "1 meter",
+            "value": "100 cm",
+            "color": "BLUE"
+          },
+          {
+            "heading": "1 kilometer",
+            "value": "1000 m",
+            "color": "GREEN"
+          }
+        ]
+      },
+      "equations": [
+        "1 m = 100 cm",
+        "1 km = 1000 m"
+      ],
+      "highlight": null
+    },
+    {
+      "title": "Step 2: Check the Choices",
+      "narration": "Now let's look at the choices. 1.2 cm is way too small, like a tiny eraser. 120 m is super long, like many buses parked in a row. 1.2 km is enormous, like a very long road. But 12 m sounds just right for a big tour bus!",
+      "visual_data": {
+        "cards": [
+          {
+            "heading": "1.2 cm",
+            "value": "Too tiny",
+            "color": "ORANGE"
+          },
+          {
+            "heading": "12 m",
+            "value": "Bus-sized",
+            "color": "TEAL"
+          },
+          {
+            "heading": "120 m",
+            "value": "Too long",
+            "color": "BLUE"
+          },
+          {
+            "heading": "1.2 km",
+            "value": "Way too long",
+            "color": "GREEN"
+          }
+        ]
+      },
+      "equations": [
+        "1.2 cm = 0.012 m",
+        "1.2 km = 1200 m"
+      ],
+      "highlight": null
+    },
+    {
+      "title": "Step 3: Choose the Best Answer",
+      "narration": "A tour bus is big, but not that big! It is about as long as 12 meters. That means the best choice is 12 m. Great job, math detective!",
+      "visual_data": {
+        "cards": [
+          {
+            "heading": "Likely length",
+            "value": "12 m",
+            "color": "TEAL"
+          }
+        ]
+      },
+      "equations": [
+        "12 m = 1200 cm"
+      ],
+      "highlight": "Answer: Option (2) 12 m"
+    }
+  ]
+}
